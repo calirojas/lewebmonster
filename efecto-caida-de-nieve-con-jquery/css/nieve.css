@@ -1,0 +1,39 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: #122939;
+	height: 400px;
+	color: #fff;
+	font: normal 12px Tahoma, Verdana, Arial, sans-serif;
+}
+a{
+	color: #fff;
+}
+h1{
+	font-size: 22px;
+	text-shadow: 1px 1px 10px #000;
+}
+
+#divInfo{
+	margin: 0 auto;
+	width: 360px;
+	text-align: center;
+	margin-top: 200px;
+}
+#divNieve{
+	position: fixed;
+	bottom: 0;
+	height: 186px;
+	width: 100%;
+	background: url(../img/fondo.jpg) no-repeat;
+}
+	#divPoloNorte{
+		position: absolute;
+		height: 200px;
+		width: 160px;
+		background: url(../img/polo-norte.png);
+		left: 350px;
+		bottom: 50px;
+	}
