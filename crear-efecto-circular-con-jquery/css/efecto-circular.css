@@ -1,0 +1,46 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: #C9C2B5 url(../img/fondo.gif);
+	font: normal 13px Tahoma, Verdana, Arial, sans-serif;
+}
+h1{
+	font-size: 20px;
+}
+a{
+	color: #fff;
+}
+
+#divContenedor{
+	position: absolute;
+	width: 800px;
+	height: 600px;
+	border: solid 0px #000;
+	left: 50%;
+	margin-left: -400px;
+	top: 10px;
+}
+	#divTitulo{
+		text-align: center;
+		background: #333;
+		border-radius: 5px;
+		box-shadow: 0 0 10px #333;
+		padding: 10px;
+		margin-bottom: 20px;
+		color: #fff;
+	}
+	#divArbol{
+		position: absolute;
+		z-index: 1;
+		width: 100%;
+		text-align: center;
+	}
+	#divAreaCirculacion{
+		padding-top: 130px;
+		position: relative;
+		height: 400px;
+		width: 100%;
+		text-align: center;
+	}
