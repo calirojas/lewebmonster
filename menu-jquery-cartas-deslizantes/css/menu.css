@@ -1,0 +1,53 @@
+body{
+	background:#000;
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration:none;
+}
+img{
+	border:none;
+}
+#divMenu{
+	background:#fff;
+	height:270px;
+	text-align:center;
+	border-bottom:solid 2px #666;
+}
+	.clsRecuadro{
+		background:#fff url(../img/recuadro.jpg) top;
+		width:184px;
+		height:0;
+		/* float:left;  las imagenes se despliegan de arriba hacia abajo*/
+		display:inline; /* las imagenes se despliegan de abajo hacia arriba */
+	}
+		.clsImagen{
+			margin-left:20px;
+			margin-top:20px;
+			height:220px;
+			width:144px;
+			display:none;
+		}
+			.clsAkasha{
+				background:url(../img/akasha.jpg) top left;
+			}
+			.clsBalerom{
+				background:url(../img/balerom.jpg) top left;
+			}
+			.clsCapmany{
+				background:url(../img/capmany.jpg) top left;
+			}
+			.clsGandhi{
+				background:url(../img/gandhi.jpg) top left;
+			}
+#divCali{
+	position:fixed;
+	bottom:0;
+	width:100%;
+	text-align:right;
+	background:#000;
+}
+	#divCali img{
+		padding:20px;
+	}
