@@ -1,0 +1,96 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font: normal 12px Tahoma, Verdana, Arial, sans-serif;
+	background: #333;
+	color: #fff;
+}
+
+#divContenedor{
+	position: absolute;
+	width: 600px;
+	left: 50%;
+	margin-left: -300px;
+	top: 10px;
+}
+	#divTitulo{
+		padding-bottom: 10px;
+		text-align: center;
+	}
+		#divTitulo h1{
+			font-size: 18px;
+		}
+		#divTitulo p{
+			font-size: 13px;
+		}
+			#divTitulo p a{
+				text-decoration: underline;
+				color: #f00;
+				font-weight: bold;
+			}
+	#divCancha{
+		height: 500px;
+		width: 500px;
+		border: solid 4px #fff;
+		background: green url(../img/fondo.png);
+		position: relative;
+		margin: 0 auto;
+		box-shadow: 0 0 10px #000;
+		overflow: hidden;
+	}
+		#divPorteria{
+			position: absolute;
+			top: 0;
+			width: 240px;
+			height: 130px;
+			background: url(../img/porteria.png) bottom center no-repeat;
+			margin-left: -120px;
+			left: 50%;
+		}
+		#divAreaDeGol{
+			position: absolute;
+			left: 18px;
+			height: 77px;
+			width: 205px;
+			bottom: 20px;
+		}
+		#divContador{
+			position: absolute;
+			bottom: 0;
+			background: #f1f1f1;
+			width: 100%;
+			padding: 5px 0;
+			color: #000;
+			text-align: center;
+		}
+			#divContador input[type="text"]{
+				width: 50px;
+				text-align: center;
+				border: solid 1px #000;
+				border-radius: 3px;
+				padding: 4px;
+			}
+				#divContador select{
+					width: 120px;
+					border: solid 1px #000;
+					border-radius: 3px;
+					padding: 4px;
+				}
+		#divPortero{
+			background: url(../img/portero.png) center no-repeat;
+			height: 101px;
+			width: 34px;
+			position: absolute;
+			bottom: 0;
+			left: 100px;
+		}
+		#divBalon{
+			position: absolute;
+			height: 27px;
+			width: 28px;
+			background: url(../img/balon.png) center no-repeat;
+			bottom: 55px;
+			left: 250px;
+		}

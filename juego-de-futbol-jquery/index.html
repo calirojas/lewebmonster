@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ejemplo de juego de f&uacute;tbol con jQuery - www.lewebmonster.com</title>
+		<link rel="stylesheet" type="text/css" href="css/futbol.css">
+	</head>
+	<body>
+		<div id="divContenedor">
+			<div id="divTitulo">
+				<h1>Juego de penales de f&uacute;tbol con jQuery</h1>
+				<p>
+					Ejemplo por Cali Rojas - <a href="http://www.lewebmonster.com/">www.lewebmonster.com</a><br>
+					Jugar con las teclas direccionales [Arriba|Izquierda|Derecha]
+				</p>
+			</div>
+			<div id="divCancha">
+				<div id="divPorteria">
+					<div id="divAreaDeGol"></div>
+					<div id="divPortero"></div>
+				</div>
+				<div id="divJugador"></div>
+				<div id="divBalon"></div>
+				<div id="divContador">
+					<label>Nivel:</label>
+					<select id="selNivel">
+						<option value="300">Principiante</option>
+						<option value="200">Intermedio</option>
+						<option value="100">Profesional</option>
+					</select>
+					<label>Goles:</label>
+					<input type="text" id="txtGoles" value="0" readonly>
+					<label>Atajadas:</label>
+					<input type="text" id="txtAtajadas" value="0" readonly>
+					<label>Fueras:</label>
+					<input type="text" id="txtFueras" value="0" readonly>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/ext/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="js/ext/jquery-collision-1.0.1.js"></script>
+		<script type="text/javascript" src="js/futbol.js"></script>
+	</body>
+</html>
