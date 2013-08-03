@@ -1,0 +1,39 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font: normal 12px Tahoma, Verdana, Arial, sans-serif;
+	background: url(../img/fondo.jpg);
+}
+h1{
+	font-size: 20px;
+}
+a{
+	color: #f00;
+}
+#divCarretera{
+	width: 400px;
+	margin: 0 auto;
+	background: url(../img/carretera.jpg) repeat-y;
+	height: 2400px;
+	box-shadow: 0 0 10px #000;
+}
+#divFlotante{
+	position: absolute;
+	width: 256px;
+	height: 256px;
+	top: 50px;
+	left: 50%;
+	margin-left: -128px;
+}
+#divInfo{
+	padding: 10px 0;
+	position: fixed;
+	bottom: 0;
+	background: #000;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	box-shadow: 0 0 10px #000;
+}
