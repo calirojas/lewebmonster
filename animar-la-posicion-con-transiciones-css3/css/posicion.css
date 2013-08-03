@@ -1,0 +1,65 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font: normal 12px Tahoma, Verdana, Arial, sans-serif;
+	overflow: hidden;
+	background: #fafafa;
+}
+a{
+	color: #f00;
+}
+h1{
+	font-size: 17px;
+}
+#divContenedor{
+	margin: 0 auto;
+	width: 800px;
+	padding-top: 30px;
+}
+	#divInfo{
+		text-align: center;
+		background: #fff;
+		border: solid 1px #ccc;
+		padding: 10px;
+		border-radius: 3px;
+		box-shadow: 1px 1px 10px #ccc;
+	}
+	#divArbol{
+		width: 700px;
+		height: 423px;
+		background: url(../img/arbol.png) center no-repeat;
+		margin: 0 auto;
+		padding: 40px;
+		position: relative;
+		cursor: help;
+	}
+		#divArbol:hover #divAveDerecha{
+			left: 600px;
+			top: 0px;
+		}
+		#divArbol:hover #divAveIzquierda{
+			left: -200px;
+			top: -300px;
+		}
+		
+		#divAveIzquierda{
+			left: 500px;
+			top: 170px;
+		}
+		#divAveDerecha{
+			left: 100px;
+			top: 300px;
+		}
+
+.clsAve{
+	background: url(../img/ave.gif);
+	height: 156px;
+	width: 309px;
+	position: absolute;
+	-webkit-transition: left 5s ease-out, top 10s ease-out;
+		-moz-transition: left 5s ease-out, top 10s ease-out;
+			-o-transition: left 5s ease-out, top 10s ease-out;
+				transition: left 5s ease-out, top 10s ease-out;
+}
