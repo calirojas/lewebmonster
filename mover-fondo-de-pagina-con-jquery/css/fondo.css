@@ -1,0 +1,65 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font: normal 12px Tahoma, Verdana, Arial, sans-serif;
+	background: #f1f1f1;
+}
+h1{
+	font-size: 14px;
+}
+a{
+	color: #ff9900;
+}
+
+#divContenedor{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+	#divCreditos{
+		position: absolute;
+		bottom: 50px;
+		padding: 10px 0;		
+		width: 500px;
+		left: 50%;
+		margin-left: -250px;
+		text-align: center;
+		color: #fff;
+		text-shadow: 1px 1px 1px #000;
+	}
+	#divIzquierda,#divDerecha{
+		width: 130px;
+		height: 100%;
+	}
+	#divIzquierda{
+		position: absolute;
+		left:0 ;
+		background: url(../img/flecha-izquierda.png) center 400px no-repeat;
+	}
+	#divDerecha{
+		position: absolute;
+		right: 0;
+		background: url(../img/flecha-derecha.png) center 400px no-repeat;
+	}
+	#divContenido{
+		position: absolute;
+		left: 0;
+		height: 100%;
+		width: 2520px;
+		background: #99D0F9 url(../img/fondo.jpg) bottom repeat-x;
+	}
+
+		.clsCajaContenido{
+			height: 300px;
+			width: 500px;
+			margin: 50px;
+			border: solid 1px #f1f1f1;
+			display: inline-block;
+			background: #fff;
+			border-radius: 3px;
+			box-shadow: 0 0 10px #999;
+			padding: 10px;
+		}
