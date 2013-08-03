@@ -1,0 +1,144 @@
+body{
+	font: normal 12px Tahoma, Verdana, Arial, sans-serif;
+	background: #222;
+}
+#divContenedor{
+	position: absolute;
+	width: 800px;
+	height: 600px;
+	left: 50%;
+	margin-left: -400px;
+	top: 50%;
+	margin-top: -300px;
+	background: #000 url(../img/fondo.gif);
+	border: solid 1px #333;
+	overflow: hidden;
+	border-radius: 5px;
+}
+	#divMensaje{
+		position: absolute;
+		background: #000;
+		width: 400px;
+		left: 50%;
+		margin-left: -210px;
+		top: 100px;
+		height: 70px;
+		border-radius: 5px;
+		border: solid 1px #111;
+		padding: 10px;
+		margin-top: -35px;
+		top: 50%;
+		color: #fff;
+		text-align: center;
+		display: none;
+	}
+		#divMensaje h1{
+			color: #D81139;
+		}
+	#divBarra{
+		position: absolute;
+		background: #000;
+		width: 100%;
+		top: 0;
+		color: #fff;
+		z-index: 5;
+		border-radius: 5px;
+	}
+		#divBarra ul{
+			padding: 0;
+			margin: 0;
+			list-style-type: none;
+		}
+			#divBarra ul li{
+				float: left;
+				padding: 5px;
+			}
+			#liEliminados,#liTiempo{
+				color: #D81139;
+			}
+	#divNave{
+		position: absolute;
+		height: 48px;
+		width: 48px;
+		border: solid 0px #fff;
+		bottom: 0;
+		left: 360px;
+		background: url(../img/nave.png) center no-repeat;
+	}
+	#divEnemigos{
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 250px;
+		width: 100%;
+	}
+		.clsEnemigo{
+			position: absolute;
+			width: 48px;
+			height: 48px;
+			border-radius: 10px;
+			background: url(../img/enemigo.png) center no-repeat;
+		}
+	.clsProyectil{
+		position: absolute;
+		border: solid 1px #fff;
+		width: 4px;
+		height: 4px;
+		background: #ff0000;
+	}
+	.clsExplosion{
+		position: absolute;
+		background: url(../img/explotar.gif);
+		height: 32px;
+		width: 32px;
+	}
+	#divIntro{
+		position: absolute;
+		height: 600px;
+		width: 100%;
+		background: #000;
+		z-index: 6;
+		border-radius: 5px;
+	}
+		#divPresentacion{
+			position: absolute;
+			width: 390px;
+			left: 50%;
+			margin-left: -195px;
+			top: 100px;
+			text-align: center;
+			display: none;
+			border: solid 0px #333;
+			background: #000;
+		}
+			#divTexto{
+				color: #fff;
+			}
+				#divTexto h1{
+					margin-bottom: 0;
+					padding-bottom: 0;
+					padding-top: 15px;
+				}
+				#divTexto h2{
+					padding: 0;
+					margin: 0;
+					font-weight: normal;
+					font-size: 12px;
+				}
+				#divTexto a{
+					color: #D81139;
+					text-decoration: none;
+				}
+					#divTexto a:hover{
+						text-decoration: underline;
+					}
+			#divOpciones{
+				margin-top:25px;
+				padding: 10px;
+				background: #222;
+				border-radius: 5px;
+				color: #fff;
+				text-align: center;
+				display: none;
+				border: solid 1px #333;
+			}

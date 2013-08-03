@@ -1,0 +1,53 @@
+<html>
+	<head>
+		<title>Space Webmonsters: ejemplo de juego desarrollado con jQuery - www.lewebmonster.com</title>
+		<link rel="stylesheet" type="text/css" href="css/spacewebmonsters.css">
+	</head>
+	<body>
+		<div id="divContenedor">
+			<div id="divBarra">
+				<ul>
+					<li><strong>Objetivos eliminados: </strong></li>
+					<li id="liEliminados">0</li>
+					<li><strong>Tiempo restante:</strong></li>
+					<li id="liTiempo">0</li>
+				</ul>
+			</div>
+			<div id="divMensaje">
+				<h1>Usted gan&oacute; :)</h1>
+				<p>Felicidades, usted ha ganado la partida.</p>
+			</div>
+			<div id="divEnemigos"></div>
+			<div id="divNave"></div>
+			<div id="divIntro">
+				<div id="divPresentacion">
+					<div id="divLogo"><img src="img/webmonster.jpg"></div>
+					<div id="divTexto">
+						<h1>Space Webmonsters</h1>
+						<h2>Creado por Cali Rojas - <a href="http://www.lewebmonster.com">www.lewebmonster.com</a></h2>
+					</div>
+					<div id="divOpciones">
+						<label for="selVelocidad">Velocidad: </label>
+						<select id="selVelocidad">
+							<option value="5000">Normal</option>
+							<option value="2000">R&aacute;pida</option>
+						</select>
+						&nbsp;&nbsp;
+						<label for="selEnemigos">Enemigos: </label>
+						<select id="selEnemigos">
+							<option value="10">10</option>
+							<option value="15">15</option>
+							<option value="20">20</option>
+							<option value="25">25</option>
+						</select>
+						&nbsp;&nbsp;&nbsp;&nbsp;
+						<input type="button" value="Jugar" id="btnIniciar">
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/ext/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="js/ext/jquery-collision-1.0.1.js"></script>
+		<script type="text/javascript" src="js/spacewebmonsters.js"></script>
+	</body>
+</html>
