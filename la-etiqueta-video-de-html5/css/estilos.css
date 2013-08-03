@@ -1,0 +1,23 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	font: normal 12px Tahoma, Verdana, Arial, sans-serif;
+	background: #777;
+}
+
+video{
+	border-radius: 3px;
+	box-shadow: 0 0 10px #000;
+}
+	#divContenedor{
+		width: 400px;
+		height: 400px;
+		padding-top: 100px;
+		left: 50%;
+		margin-left: -200px;
+		position: absolute;
+		text-align: center;
+	}
