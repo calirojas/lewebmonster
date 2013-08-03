@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ejemplo de ventanas modales con jQuery - lewebmonster.com</title>
+		<link rel="stylesheet" type="text/css" href="css/ventanas-modales.css">
+	</head>
+	<body>
+		<div id="divContenedor">
+			<div id="divLogo">
+				<img src="img/lewebmonster.jpg">
+			</div>
+			<div id="divContenido">
+				<h1>Ejemplo de ventanas modales con jQuery</h1>
+				<!--
+					el titulo de la ventana se coloca en el atributo "rel"
+					la clase del enlace (link) para que el contenido se abra en nuestra ventana
+					modal, debe ser "clsVentanaIFrame"
+					
+					esto es todo lo que hay que hacer en el html, del resto se encarga jquery
+				-->
+				<a href="pruebas/iframe1.html" class="clsVentanaIFrame clsBoton" rel="Hola, esto es un iframe">Clic aqu&iacute; para abrir la ventana modal</a>
+				<a href="pruebas/iframe2.html" class="clsVentanaIFrame clsBoton" rel="Este es el segundo iframe">Otra ventana con jQuery</a>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/ext/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="js/ventanas-modales.js"></script>
+	</body>
+</html>
