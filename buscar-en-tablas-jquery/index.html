@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ejemplo para buscar en una tabla con jQuery sin plugins - www.lewebmonster.com</title>
+		<link rel="stylesheet" type="text/css" href="css/buscar-en-tabla.css">
+	</head>
+	<body>
+		<div id="divContenedor">
+			<div id="divInfo">
+				<h1>
+					Buscar en una tabla con la librer&iacute;a jQuery y el control search de HTML5
+					sin utilizar plugins
+				</h1>
+				<p>Ejemplo por Cali Rojas - <a href="http://www.lewebmonster.com">www.lewebmonster.com</a></p>
+			</div>
+			<div id="divTabla">
+				<label for="txtBuscar">Buscar: </label>
+				<input type="search" id="txtBuscar" autofocus
+				placeholder="Digite el texto que desea encontrar y presione ENTER. Para cancelar la tecla ESCAPE.">
+				
+				<table border="1" id="tblTabla" width="630">
+					<thead>
+						<tr>
+							<th>Nombre completo</th>
+							<th>Provincia</th>
+							<th>Tel&eacute;fono</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Cali Rojas</td>
+							<td>San Jos&eacute;</td>
+							<td>1234-5678</td>
+						</tr>
+						<tr>
+							<td>Pedro P&eacute;rez Pereira</td>
+							<td>Guanacaste</td>
+							<td>3456-7890</td>
+						</tr>
+						<tr>
+							<td>Adriana Lor&iacute;a Mora</td>
+							<td>Heredia</td>
+							<td>4567-2345</td>
+						</tr>
+						<tr>
+							<td>Marisol Sol&iacute;s Vargas</td>
+							<td>San Jos&eacute;</td>
+							<td>1234-5432</td>
+						</tr>
+						<tr>
+							<td>Vanessa Jim&eacute;nez</td>
+							<td>Cartago</td>
+							<td>7212-4912</td>
+						</tr>
+						<tr>
+							<td>Fernando Fern&aacute;ndez</td>
+							<td>Alajuela</td>
+							<td>4567-9356</td>
+						</tr>
+					</tbody>
+					<tfoot>
+						<tr>
+							<td colspan="3">
+								Buscar en una tabla sin plugins
+							</td>
+						</tr>
+					</tfoot>
+				</table>
+			</div>
+		</div>
+		
+		<script type="text/javascript" src="js/ext/jquery-1.8.2.min.js"></script>
+		<script type="text/javascript" src="js/buscar-en-tabla.js"></script>
+	</body>
+</html>
