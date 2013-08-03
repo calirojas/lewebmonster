@@ -1,0 +1,112 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: #000;
+	font: normal 12px Tahoma, Verdana, Arial, sans-serif;
+	color: #fff;
+	background: #85030F url(../img/fondo.jpg) repeat-x;
+}
+a{
+	color: #fff;
+}
+h1{
+	font: normal 25px 'Margarine';
+	text-shadow: 2px 2px 10px #333;
+}
+
+#divContenedor{
+	margin: 0 auto;
+	width: 500px;
+	margin-top: 100px;
+}
+	#divInfo{
+		padding: 10px;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	#divAnimacion{
+		width: 500px;
+		height: 300px;
+		background: white;
+		position: relative;
+		box-shadow: 0 0 10px #000;
+		overflow: hidden;
+		border-radius: 4px;
+	}
+		#divCortinaIzquierda{
+			position: relative;
+			height: 100%;
+			width: 250px;
+			background: url(../img/cortina.jpg) top right no-repeat;
+			float: left;
+			display: inline-block;
+			box-shadow: 0 0 0 #000;
+			z-index: 100;
+			border-radius: 3px 0 0 3px;
+		}
+		#divEscenario{
+			position: absolute;
+			right: 0;
+			top: 0;
+			height: 100%;
+			width: 100%;
+			background: #fff url(../img/muneco.jpg) bottom center no-repeat;
+			z-index: 1;
+			font-size: 0;
+			border-radius: 4px;
+		}
+			#divTexto{
+				position: absolute;
+				top: 70px;
+				width: 100%;
+				color: #fff;
+				text-align: center;
+				text-shadow: 0 0 10px green;
+				font-family: 'Margarine', cursive;
+				z-index: 1000;
+		}
+		#divSanta{
+			position: absolute;
+			top: 150px;
+			left: -200px;
+			width: 209px;
+			height: 58px;
+			background: url(../img/santa.png) no-repeat;
+		}
+	#divCortinaDerecha{
+		position: relative;
+		height: 100%;
+		width: 250px;
+		background: url(../img/cortina.jpg) top left no-repeat;
+		float: right;
+		display: inline-block;
+		box-shadow: 0 0 0 #000;
+		z-index: 10000;
+		border-radius: 0 3px 3px 0;
+	}
+	#divAbrir{
+		position: absolute;
+		width: 140px;
+		border-bottom-left-radius: 50%;
+		border-bottom-right-radius: 50%;
+		height: 200px;
+		top: 0;
+		left: 50%;
+		margin-left: -70px;
+		z-index: 10000;
+		background: #fff url(../img/logo.jpg) center 100px no-repeat;
+		box-shadow: 0 0 10px #000;
+		cursor: pointer;
+		text-align: center;
+		-webkit-transition: background 500ms ease;
+			-moz-transition: background 500ms ease;
+				-ms-transition: background 500ms ease;
+					-o-transition: background 500ms ease;
+						transition: background 500ms ease;	
+	}
+		#divAbrir:hover{
+			/* para que el cambio de posicion del fondo funcione en ff y opera */
+			background: #fff url(../img/logo.jpg) center 50px no-repeat;
+		}
