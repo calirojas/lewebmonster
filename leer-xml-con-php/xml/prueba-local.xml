@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<estudiantes>
+	<estudiante estado="Activo">
+		<identificacion tipo="Extranjero">1-2345-6789</identificacion>
+		<nombre>Cali</nombre>
+		<apellidos>Rojas</apellidos>
+		<genero>Masculino</genero>
+		<nota>94.5</nota>
+	</estudiante>
+	<estudiante estado="Activo">
+		<identificacion tipo="Nacional">2-3456-7890</identificacion>
+		<nombre>María</nombre>
+		<apellidos>Brenes</apellidos>
+		<genero>Femenino</genero>
+		<nota>98</nota>
+	</estudiante>
+	<estudiante estado="Inactivo">
+		<identificacion tipo="Nacional">3-4567-8901</identificacion>
+		<nombre>Marco</nombre>
+		<apellidos>Jiménez</apellidos>
+		<genero>Masculino</genero>
+		<nota>78.4</nota>
+	</estudiante>
+	<estudiante estado="Activo">
+		<identificacion tipo="Extranjero">9-8765-4321</identificacion>
+		<nombre>Arturo</nombre>
+		<apellidos>Vargas</apellidos>
+		<genero>Masculino</genero>
+		<nota>100</nota>
+	</estudiante>
+	<estudiante estado="Inactivo">
+		<identificacion tipo="Extranjero">6-5432-1012</identificacion>
+		<nombre>Gabriela</nombre>
+		<apellidos>Smith</apellidos>
+		<genero>Femenino</genero>
+		<nota>80</nota>
+	</estudiante>
+</estudiantes>
