@@ -1,0 +1,54 @@
+@strColorTexto: #333;
+@strFondoClaro: #f1f1f1;
+@strBordeGris: solid 1px #ccc;
+@strTamanoFuente: 12px;
+
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+    font: normal @strTamanoFuente Tahoma, Verdana, Arial, sans-serif;
+}
+
+#divContenedor{
+    position: absolute;
+    left: 50%;
+    margin-left: -300px;
+    width: 600px;
+    top: 50px;
+}
+    #divTitulo{
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    p{
+        padding: 10px;
+        background: @strFondoClaro;
+        color: @strColorTexto;
+        border: @strBordeGris;
+        .clsSombra(#ccc);
+        .clsBordeRedondeado(5px);
+        
+        strong{
+            font-size: @strTamanoFuente*2;
+            text-decoration: underline;
+        }
+        em{
+            font-size: 4+@strTamanoFuente;
+            border: @strBordeGris;
+            color: #f00;
+            padding: 0 10px;
+            .clsBordeRedondeado();
+            background: #fff;
+        }
+    }
+
+.clsBordeRedondeado(@strTamanoBorde: 3px){
+    border-radius: @strTamanoBorde;
+}
+
+.clsSombra(@strColor: #000, @strTamano: 10px){
+    box-shadow: 0 0 @strTamano @strColor;
+}
