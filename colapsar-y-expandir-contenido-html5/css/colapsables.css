@@ -1,0 +1,52 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font: normal 12px Tahoma, Verdana, Arial, sans-serif;
+	background: #333;
+}
+a{
+	color: #f00;
+}
+h1{
+	font-size: 17px;
+}
+p{
+	text-align: justify;
+}
+details{
+	color: #000;
+	border: solid 1px #000;
+	background: #fff;
+}
+	summary{
+		background: #111;
+		padding: 10px;
+		color: #fff;
+		cursor: pointer;
+	}
+
+#divContenedor{
+	margin: 0 auto;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	width: 600px;
+	box-shadow: 0 0 20px #000;
+	background: #000;
+	border-radius: 4px;
+}
+	#divInfo{
+		padding: 20px 0;
+		text-align: center;
+		color: #fff;
+	}
+		#divInfo p{
+			text-align: center;
+		}
+	#divEjemplo{
+		padding: 10px;
+	}
+.clsPadding{
+	padding: 10px;
+}
