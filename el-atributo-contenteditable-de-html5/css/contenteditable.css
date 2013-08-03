@@ -1,0 +1,46 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font: normal 12px Arial, Verdana, Tahoma, sans-serif;
+	color: #fff;
+	background: #ccc;
+}
+a{
+	color: #f00;
+}
+h1{
+	font-size: 30px;
+	font-family: 'Finger Paint', cursive;
+}
+h2{
+	font-size: 20px;
+	font-family: 'Finger Paint', cursive;	
+}
+
+#divContenedor{
+	width: 600px;
+	margin: 0 auto;
+	margin-top: 20px;
+	background: #000;
+	border-radius: 3px;
+	box-shadow: 0 0 10px #000;
+	padding-bottom: 5px;
+}
+	#divInfo{
+		padding: 15px;
+	}
+	#divContenido{
+		padding: 15px;
+		text-align: center;
+	}
+	#divCapaEditable{
+		padding: 10px;
+		border: solid 1px #000;
+	}
+		#divCapaEditable:hover{
+			border: dotted 1px #f00;
+			background: #ffffcc;
+			color: #000;
+		}

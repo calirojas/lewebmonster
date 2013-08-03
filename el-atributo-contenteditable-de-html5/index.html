@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ejemplo del atributo contenteditable de HTML5 - www.lewebmonster.com</title>
+		<link rel="stylesheet" type="text/css" href="css/contenteditable.css">
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Finger+Paint">
+	</head>
+	<body>
+		<div id="divContenedor">
+			<div id="divInfo">
+				<h1>Editar elementos con HTML5</h1>
+				<p>
+					Ejemplo por Cali Rojas -
+					<a href="http://www.lewebmonster.com">www.lewebmonster.com</a>
+				</p>
+			</div>
+			<div id="divContenido" contenteditable="true">
+				<div id="divCapaEditable">
+					<h2>Contenido editable</h2>
+					<p>
+						<strong>Haga clic en este cuadro y agregue o elimine informaci&oacute;n.</strong>
+					</p>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+						incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+						exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+						irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+						nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+						qui officia deserunt mollit anim id est laborum.
+					</p>
+				</div>
+				<div id="divCapaNoEditable" contenteditable="false">
+					<h2>Hijo no editable</h2>
+					<p>
+						Este es un hijo de la capa principal <strong>divContenido</strong>, pero no se
+						puede editar porque el atributo "contenteditable" est&aacute; en false :)
+					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
