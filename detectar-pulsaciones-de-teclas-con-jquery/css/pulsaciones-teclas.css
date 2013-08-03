@@ -1,0 +1,58 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font: normal 12px Tahoma, Verdana, Arial, sans-serif;
+	background: #ccc;
+}
+#divContenedor{
+	margin: 0 auto;
+	width: 835px;
+	margin-top: 100px;
+}
+	#divTeclado{
+		position: relative;
+		width: 835px;
+		height: 286px;
+		background: url(../img/teclado.jpg);
+		border-radius: 5px;
+		box-shadow: 0 0 5px #000;
+	}
+		#divL, #divE, #divW, #divB, #divM, #divO, #divN, #divS, #divT, #divR{
+			height: 60px;
+			width: 65px;
+			background: #f00;
+			position: absolute;
+			border-radius: 6px;
+			display: none;
+		}
+			#divL{ right: 134px; top: 77px; }
+			#divE{ left: 157px; top: 7px; }
+			#divW{ left: 82px; top: 7px; }
+			#divB{ left: 375px; top: 147px; }
+			#divM{ left: 522px; top: 147px; }
+			#divO{ right: 158px; top: 7px; }
+			#divN{ left: 449px; top: 147px; }
+			#divS{ left: 111px; top: 77px; }
+			#divT{ left: 309px; top: 7px; }
+			#divR{ left: 233px; top: 7px; }
+	#divLog{
+		
+	}
+		#divLog ul{
+			list-style-type: none;
+			display: inline-block;
+		}
+			#divLog ul li{
+				float: left;
+				padding: 3px;
+				background: #333;
+				color: #fff;
+				border-radius: 3px;
+				margin: 3px;
+				border: outset 1px #000;
+				width: 32px;
+				text-align: center;
+				font-size: 11px;
+			}
