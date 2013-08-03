@@ -1,0 +1,131 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font: normal 12px Tahoma, Verdana, Arial, sans-serif;
+	background: #f1f1f1;
+}
+a{
+	color: #f00;
+}
+input[type="button"]{
+	width: 64px;
+	height: 64px;
+	margin: 2px;
+	border: solid 1px #f1f1f1;
+	background: #fff;
+	border-radius: 3px;
+	cursor: pointer;
+}
+	input[type="button"]:hover{
+		border-color: #FF7E8A;
+	}
+	input[type="button"].clsSeleccionado{
+		border-color: #21BFF2;
+	}
+#divContenedor{
+	margin: 0 auto;
+	width: 600px;
+	margin-top: 20px;
+}
+	#divReproductor{
+		border: solid 1px #ccc;
+		box-shadow: 0 0 10px #ccc;
+		border-radius: 5px;
+		background: #fff;
+	}
+		#divInfo{
+			padding: 5px;
+			padding-top: 15px;
+		}
+			#divLogo{
+				text-align: center;
+				display: inline-block;
+				padding-left: 10px;
+			}
+			#divInfoCancion{
+				text-align: left;
+				display: inline-block;
+				vertical-align: top;
+				border-radius: 3px;
+				padding: 10px;
+				margin-left: 20px;
+			}
+				#divInfoCancion label{
+					display: block;
+				}
+					#divInfoCancion label strong{
+						width: 100px;
+						display: inline-block;
+					}
+		#divControles{
+			text-align: center;
+		}
+			#btnReproducir{background: url(../img/reproducir.png) center no-repeat;}
+			#btnPausar{background: url(../img/pausar.png) center no-repeat;}
+			#btnSiguiente{background: url(../img/siguiente.png) center no-repeat;}
+			#btnAnterior{background: url(../img/anterior.png) center no-repeat;}
+			#btnSilencio{background: url(../img/silencio.png) center no-repeat;}
+			#btnSubirVolumen{background: url(../img/subir-volumen.png) center no-repeat;}
+			#btnBajarVolumen{background: url(../img/bajar-volumen.png) center no-repeat;}
+			#btnRepetir{background: url(../img/repetir.png) center no-repeat;}
+		#divProgreso{
+			height: 15px;
+			margin: 10px;
+			border: inset 1px #f1f1f1;
+			border-radius: 3px;
+			overflow: hidden;
+		}
+			#divBarra{
+				width: 0;
+				height: 100%;
+				background: #FF7E8A;
+				border-right: solid 2px #f00;
+			}
+		#divLista{
+			padding: 5px;
+			overflow-x: auto;
+			height: 150px;
+			color: #777;
+			font-size: 11px;
+		}
+			#divLista ol{
+				list-style-type: none;
+				padding-left: 10px;
+			}
+				#divLista ol li{
+					border-bottom: dashed 1px #f1f1f1;
+					padding: 5px;
+					cursor: pointer;
+					border-radius: 3px;
+				}
+					#divLista ol li:hover{
+						background: #FF7E8A;
+						color: #fff;
+						text-shadow: 1px 1px 1px #000;
+					}
+					#divLista ol li.clsSeleccionado{
+						background: #21BFF2;
+						color: #fff;
+						text-shadow: 1px 1px 1px #000;
+					}
+					#divLista ol li:last-child{
+						border-bottom: none;
+					}
+					#divLista ol li strong{
+						display: block;
+					}
+					#divLista ol li em{
+						display: block;
+						font-style: normal;
+					}
+		#divCreditos{
+			padding: 10px;
+			text-align: right;
+			font-size: 10px;
+			color: #666;
+		}
+			#divCreditos h1{
+				font-size: 10px;
+			}

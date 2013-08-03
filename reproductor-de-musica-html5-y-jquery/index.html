@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Reproductor de m&uacute;sica con HTML5, ejemplo de reproductor de Audio HTML5 - www.lewebmonster.com</title>
+		<link rel="stylesheet" type="text/css" href="css/reproductor.css">
+	</head>
+	<body>
+		<div id="divContenedor">
+			<div id="divReproductor">
+				<div id="divInfo">
+					<div id="divLogo">
+						<img src="img/logo.png" align="left">
+					</div>
+					<div id="divInfoCancion">
+						<label id="lblCancion"><strong>Nombre: </strong><span>-</span></label>
+						<label id="lblArtista"><strong>Artista: </strong><span>-</span></label>
+						<label id="lblDuracion"><strong>Duraci&oacute;n: </strong><span>-</span></label>
+						<label id="lblEstado"><strong>Transcurrido: </strong><span>-</span></label>
+					</div>
+					<div style="clear: both"></div>
+				</div>
+				<div id="divControles">
+					<input type="button" id="btnReproducir" title="Reproducir">
+					<input type="button" id="btnPausar" title="Pausar/Continuar">
+					<input type="button" id="btnAnterior" title="Anterior">
+					<input type="button" id="btnSiguiente" title="Siguiente">
+					<input type="button" id="btnSubirVolumen" title="Subir volumen">
+					<input type="button" id="btnBajarVolumen" title="Bajar volumen">
+					<input type="button" id="btnSilencio" title="Poner/Quitar silencio">
+					<input type="button" id="btnRepetir" title="Repetir la lista al finalizar">
+				</div>
+				<div id="divProgreso">
+					<div id="divBarra"></div>
+				</div>
+				<div id="divLista">
+					<ol id="olCanciones">
+						<li rel="audio/moldo/el-silencio.ogg">
+							<strong>El silencio</strong>
+							<em>Moldo</em>
+						</li>
+						<li rel="audio/moldo/cicatrices.ogg">
+							<strong>Cicatrices</strong>
+							<em>Moldo</em>
+						</li>
+						<li rel="audio/moldo/daramor.mp3">
+							<strong>Daramor</strong>
+							<em>Moldo</em>
+						</li>
+						<li rel="audio/moldo/al-filo-de-la-navaja.mp3">
+							<strong>Al filo de la navaja</strong>
+							<em>Moldo</em>
+						</li>
+					</ol>
+				</div>
+				<div id="divCreditos">
+					<h1>Reproductor de m&uacute;sica con HTML5 y jQuery</h1>
+					<p>Ejemplo por Cali Rojas - <a href="http://www.lewebmonster.com" target="_blank">www.lewebmonster.com</a></p>
+					<p>M&uacute;sica por el cantautor costarricense <a href="http://moldo.bandcamp.com" target="_blank">Moldo</a></p>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/ext/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="js/reproductor.js"></script>
+	</body>
+</html>
