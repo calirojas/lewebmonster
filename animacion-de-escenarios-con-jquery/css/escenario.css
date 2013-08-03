@@ -1,0 +1,63 @@
+body{
+	background: #666;
+}
+a{
+	color: #fff;
+}
+h1{
+	color: #fff;
+	text-align: center;
+	font: 18px normal Tahoma, Verdana, Arial, sans-serif;
+	padding: 15px 0 0px 0;
+	margin: 0;
+	text-transform: uppercase;
+}
+	h1 em{
+		font-size: 11px;
+		font-weight: bold;
+	}
+h2{
+	color: #fff;
+	text-align: center;
+	font: 12px normal Tahoma, Verdana, Arial, sans-serif;
+	padding: 0 0 15px 0;
+	margin: 0;
+}
+#divContenedor{
+	border: solid 1px #777;
+	box-shadow: 0 0 7px #000;
+	height: 400px;
+	width: 900px;
+	margin: 0 auto;
+	/*
+	 * esta capa contiene todos los elementos involucrados en la animacion
+	 * normalmente no tendria sentido colocarla (porque en realidad no es necesario)
+	 * pero le agregue un efecto de sombra... si colocamos este efecto de sombra (box-shadow)
+	 * a la capa que contiene el fondo --la animacion se ve lenta--
+	 */
+}
+#divFondo{
+	height: 400px;
+	width: 900px;
+	background: url(../img/fondo.jpg);
+	/*
+	 * el fondo se debe repetir.. al menos hacia la derecha, ya que es por medio de este
+	 * fondo infinito que realizamos la animacion... ahi esta el truco
+	 */
+}
+	#divNubes{
+		width: 100%;
+		height: 151px;
+		background: url(../img/nubes.png);
+		/*
+		 * el fondo se debe repetir.. al menos hacia la derecha, ya que es por medio de este
+		 * fondo infinito que realizamos la animacion... ahi esta el truco
+		 */
+	}
+	#divLeopardo{
+		margin-top: 170px;
+		text-align:center;
+	}
+		#divLeopardo img{
+			display: none;
+		}
