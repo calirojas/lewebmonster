@@ -1,0 +1,81 @@
+body{
+	background:#000;
+	margin:0;
+	padding:0;
+	color:#fff;
+	font:normal 13px Tahoma,Verdana,Arial,sans-serif;
+}
+h1{
+	text-align:center;
+	padding-top:30px;
+	margin:0;
+	color:#333;
+	text-transform:uppercase;
+	font-size:22px;
+}
+a{
+	text-decoration:none;
+	color:#ff0000;
+}
+img{
+	border:none;
+}
+	#divImagenes{
+		margin-top:20px;
+		text-align:center;
+		background:#000;
+	}
+	.clsRecuadro{
+		position:relative;
+		display:inline-block;
+		background:#000;
+		height:300px;
+		width:250px;
+		border:solid 1px #333;
+		margin:10px;
+	}
+			
+	.clsImagen{
+		background:#000;
+		height:300px;
+		width:250px;
+	}
+	.clsDescripcion{
+		padding-top:10px;
+		position:absolute;
+		bottom:0;
+		background:#000;
+		height:70px; /* eliminar o dejar en auto para que se ajuste automaticamente */
+		display:none;
+		width:100%;
+	}
+		.clsDescripcion strong,.clsDescripcion p{
+			margin:0;
+			padding:3px;
+		}
+		.clsDescripcion strong{
+			text-transform:uppercase;
+		}
+		.clsDescripcion a:hover{
+			text-decoration:underline;
+		}
+	.clsRojo{
+		background:#ff0000;
+	}
+	.clsVerde{
+		background:#008000;
+	}
+	.clsAmarillo{
+		background:#ffff00;
+		color:#000;
+	}
+	#divCali{
+		position:fixed;
+		bottom:0;
+		width:100%;
+		text-align:right;
+		background:#000;
+	}
+		#divCali img{
+			padding:20px;
+		}
