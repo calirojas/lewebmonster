@@ -1,0 +1,56 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.clswebmonsterTooltip{
+	font: normal 12px Tahoma, Verdana, Arial, sans-serif;
+	position: absolute;
+	height: auto;
+	border: solid 1px #ccc;
+	z-index: 4000;
+	border-radius: 3px;
+	box-shadow: 0 0 10px #333;
+	display: none;
+	color: #fff;
+	background: #fff;
+	text-decoration: none;
+	padding: 0px;
+}
+	.clswebmonsterTooltipTitle{
+		padding: 5px 0;
+		color: #fff;
+		padding-left: 5px;
+		background: #000;
+		border-radius: 3px 3px 0 0;
+	}
+		.clswebmonsterTooltipTitle h5{
+			display: inline-block;
+			font-size: 11px;
+		}
+		.clswebmonsterTooltipTitleQuestion,
+		.clswebmonsterTooltipTitleInfo,
+		.clswebmonsterTooltipTitleError,
+		.clswebmonsterTooltipTitleWarning{
+			background-position: 5px center;
+			background-repeat: no-repeat;
+			text-indent: 10px;
+		}
+		.clswebmonsterTooltipTitleQuestion{
+			background-image: url(../img/question.png);
+		}
+		.clswebmonsterTooltipTitleInfo{
+			background-image: url(../img/info.png);
+		}
+		.clswebmonsterTooltipTitleError{
+			background-image: url(../img/error.png);
+		}
+		.clswebmonsterTooltipTitleWarning{
+			background-image: url(../img/warning.png);
+		}
+	.clswebmonsterTooltipContent{
+		background: #fff;
+		color: #000;
+		border-radius: 3px;
+		padding: 5px;
+		font-size: 11px;
+	}
