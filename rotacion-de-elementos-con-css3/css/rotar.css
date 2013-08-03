@@ -1,0 +1,56 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font: normal 12px Tahoma, Verdana, Arial, sans-serif;
+	background: #333;
+	color: #fff;
+}
+h1{
+	font-size: 18px;	
+}
+a{
+	color: #8ED2F9;
+}
+
+#divContenedor{
+	margin: 0 auto;
+	width: 800px;
+	margin-top: 50px;
+}
+	#divInfo{
+		text-align: center;
+		padding-bottom: 40px;
+	}
+	#divContenedorFondo{
+		height: 300px;
+		border: solid 1px #ccc;
+		box-shadow: 0 0 10px #000;
+		overflow: hidden;
+		position: relative;
+		border-radius: 3px;
+		background: #000;
+	}
+		#divFondo{
+			width: 1500px;
+			height: 1500px;
+			background: url(../img/fondo.jpg) center;
+			/* transicion para que rote poco a poco */
+			-webkit-transition: all 10.5s ease-out;
+				-moz-transition: all 10.5s ease-out;
+					-o-transition: all 10.5s ease-out;
+						transition: all 10.5s ease-out;
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			margin-left: -750px;
+			margin-top: -750px;
+		}
+			#divFondo:hover{
+				/* rotamos el elemento al colocar el puntero del raton */
+				-webkit-transform: rotate(360deg);
+					-moz-transform: rotate(360deg);
+						-o-transform: rotate(360deg);
+							transform: rotate(360deg);
+			}
