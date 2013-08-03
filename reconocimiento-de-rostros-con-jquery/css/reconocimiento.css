@@ -1,0 +1,33 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font: normal 12px Tahoma, Verdana, Arial, sans-serif;
+}
+h1{
+	font-size: 18px;
+}
+a{
+	color: #f00;
+}
+#divContenedor{
+	width: 800px;
+	background: #000;
+	margin: 0 auto;
+	border-radius: 5px;
+	box-shadow: 0 0 10px #333;
+	margin-top: 20px;
+}
+	#divInfo{
+		text-align: center;
+		padding: 10px;
+		color: #fff;
+	}
+	#divImagen{
+		position: relative;
+	}
+.clsRecuadro{
+	border: solid 1px #fff;
+	background: none;
+}
