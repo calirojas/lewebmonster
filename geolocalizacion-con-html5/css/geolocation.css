@@ -1,0 +1,30 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font: normal 13px Tahoma, Verdana, Arial, sans-serif;
+	background: #fff;
+}
+h1{
+	font-size: 20px;
+}
+#divContenedor{
+	width: 800px;
+	margin: 0 auto;
+	padding-top: 40px;
+}
+	#divInfo{
+		text-align: center;
+		padding: 10px 0;
+	}
+	#divMapa{
+		height: 450px;
+		width: 800px;
+		border: solid 1px #ccc;
+	}
+	#divCoordenadas{
+		text-align: center;
+		padding: 10px 0;
+		font-weight: bold;
+	}
