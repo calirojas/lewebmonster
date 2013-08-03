@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ejemplo del control range de HTML5 - www.lewebmonster.com</title>
+		<link rel="stylesheet" type="text/css" href="css/range.css">
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Finger+Paint">
+	</head>
+	<body>
+		<div id="divContenedor">
+			<div id="divInfo">
+				<h1>El control RANGE de HTML5</h1>
+				<p>
+					Ejemplo por Cali Rojas -
+					<a href="http://www.lewebmonster.com">www.lewebmonster.com</a>
+				</p>
+			</div>
+			<div id="divSelector">
+				<input type="range" id="rngRango" value="1" step="0.1" max="1" min="0">
+				<br>
+				<label id="lblLeyenda">
+					Mueva el control "range" hacia la izquierda/derecha para cambiar la opacidad
+				</label>
+			</div>
+			<div id="divCarro">&nbsp;</div>
+		</div>
+		<script>
+			//escuchamos el evento change del control range
+			document.getElementById('rngRango').addEventListener('change',function(){
+				//obtenemos el valor del control range
+				var iValor=this.value;
+				
+				//seleccionamos la capa a la que le cambiaremos la opacidad
+				var objCapa=document.getElementById('divCarro');
+				//le asignamos la nueva opacidad
+				objCapa.style.opacity=iValor;
+				
+				//actualizamos la leyenda
+				var objLeyenda=document.getElementById('lblLeyenda');
+				objLeyenda.innerHTML='Opacidad actual: '+iValor+' / Equivale a '
+				+(iValor*100)+'%';
+			});
+		</script>
+	</body>
+</html>

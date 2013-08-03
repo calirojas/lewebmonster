@@ -1,0 +1,46 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font: normal 12px Arial, Verdana, Tahoma, sans-serif;
+	color: #fff;
+	background: #000 -webkit-linear-gradient(#000,#333) fixed;
+		background: #000 -moz-linear-gradient(#000,#333) fixed;
+			background: #000 -ms-linear-gradient(#000,#333) fixed;
+				background: #000 -o-linear-gradient(#000,#333) fixed;
+					background: #000 linear-gradient(#000,#333) fixed;
+}
+a{
+	color: #f00;
+}
+input[type="range"]{
+	width: 400px;
+}
+h1{
+	font-size: 30px;
+	font-family: 'Finger Paint', cursive;
+}
+
+#divContenedor{
+	width: 600px;
+	margin: 0 auto;
+	margin-top: 20px;
+	background: #000;
+	border-radius: 3px;
+	box-shadow: 0 0 10px #000;
+	padding-bottom: 5px;
+}
+	#divInfo{
+		text-align: center;
+		padding: 15px;
+	}
+	#divSelector{
+		padding: 10px;
+		text-align: center;
+	}
+	#divCarro{
+		width: 600px;
+		height: 450px;
+		background: #000 url(../img/carro.jpg) no-repeat;
+	}
