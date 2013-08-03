@@ -1,0 +1,42 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font: normal 12px Tahoma, Verdana, Arial, sans-serif;
+	background: #000;
+	-webkit-transition: background-color 1.5s ease-out;
+		-moz-transition: background-color 1.5s ease-out;
+			-o-transition: background-color 1.5s ease-out;
+				transition: background-color 1.5s ease-out;
+}
+	body:hover{
+		background-color: #cc0000;
+	}
+a{
+	color: #fff;
+}
+#divContenedor{
+	margin: 0 auto;
+	width: 800px;
+	margin-top: 70px;
+}
+	#divInfo{
+		text-align: center;
+		margin-bottom: 70px;
+		color: #fff;
+	}
+	#divFondo{
+		border-radius: 5px;
+		box-shadow: 1px 1px 10px #000;
+		background: url(../img/fondo.jpg);
+		width: 800px;
+		height: 400px;
+		-webkit-transition: background-position 1.5s ease-out;
+			-moz-transition: background-position 1.5s ease-out;
+				-o-transition: background-position 1.5s ease-out;
+					transition: background-position 1.5s ease-out;
+	}
+		#divFondo:hover{
+			background-position-x: -400px;
+		}
