@@ -1,0 +1,80 @@
+body{
+	background:#fff;
+	margin:0;
+	padding:0;
+	font-family: Tahoma, Verdana, Arial, sans-serif;
+}
+
+h1{
+	text-align: center;
+	padding-top: 25px; 
+}
+#divCarousel{
+	border: solid 1px #ccc;
+	width: 754px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 10px #ccc;
+	position: absolute;
+	/* unicamente para centrar la capa contenedora en el documento */
+	left: 50%;
+	margin-left: -377px;
+	top: 100px;
+	background: #fff;
+}
+	#divCarousel #divIzquierda{
+		width: 32px;
+		height: 162px;
+		float: left;
+		cursor: pointer;
+		background: url(../img/flechas/izquierda.png) center no-repeat;
+	}
+		#divCarousel #divIzquierda:hover{
+			background: url(../img/flechas/izquierda-hover.png) center no-repeat;
+		}
+	#divCarousel #divDerecha{
+		width: 32px;
+		height: 162px;
+		float: left;
+		cursor: pointer;
+		background: url(../img/flechas/derecha.png) center no-repeat;
+	}
+		#divCarousel #divDerecha:hover{
+			background: url(../img/flechas/derecha-hover.png) center no-repeat;
+		}
+	#divCarousel #divCentro{
+		width: 690px;
+		float: left;
+		/*el overflow es quien hace gran parte de la magia*/
+		overflow: hidden;
+		height: 160px;
+	}
+		#divCarousel #divCentro ul{
+			list-style-type: none;
+			padding: 0;
+			margin: 0;
+		}
+			#divCarousel #divCentro ul li{
+				display: inline-block;
+				margin: 15px 9px;
+				border: solid 1px #ccc;
+				border-radius: 3px;
+				background: #f1f1f1;
+				text-align: center;
+			}
+				#divCarousel #divCentro ul li img{
+					padding: 0 10px;
+				}
+.clsSalto{
+	clear: both;
+}
+
+#divCali{
+	position:fixed;
+	bottom:0;
+	width:100%;
+	text-align:right;
+	background:#000;
+}
+	#divCali img{
+		padding:20px;
+	}
