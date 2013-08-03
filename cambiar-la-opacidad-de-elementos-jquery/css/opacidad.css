@@ -1,0 +1,48 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font: normal 12px Tahoma, Verdana, Arial, sans-serif;
+	background: #f1f1f1;
+}
+h1{
+	font-size: 20px;
+}
+#divContenedor{
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 40px;
+}
+	#divLista{
+		position: relative;
+		height: 450px;
+	}
+		#divLista ul{
+			list-style-type: none;
+			position: absolute;
+			bottom: 0;
+			width: 100%;
+		}
+			#divLista ul li{
+				width: 200px;
+				background: #fff;
+				text-align: center;
+				display: inline-block;
+				border-radius: 5px;
+				box-shadow: 0 0 10px #ccc;
+			}
+				#divLista ul li img{
+					cursor: pointer;
+				}
+				#divLista ul li h2{
+					font-size: 18px;
+					background: #000;
+					padding: 5px;
+					color: #fff;
+				}
+				#divLista ul li p{
+					text-align: justify;
+					padding: 10px;
+					display: none;
+				}
