@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ejemplo del control color de HTML5 - w	ww.lewebmonster.com</title>
+		<link rel="stylesheet" type="text/css" href="css/color.css">
+	</head>
+	<body>
+		<div id="divContenedor">
+			<div id="divInfo">
+				<h1>El control "color" de HTML5</h1>
+				<p>
+					Ejemplo por Cali Rojas -
+					<a href="http://www.lewebmonster.com">www.lewebmonster.com</a>
+				</p>
+			</div>
+			<div id="divSelector">
+				<p><strong>- seleccione un color haciendo clic -</strong></p>
+				<input type="color" id="clrColor" value="#ff006f">
+				<p><strong>- el color seleccionado es -</strong></p>
+			</div>
+			<div id="divColor">#ff006f</div>
+		</div>
+		<script>
+			//escuchamos el evento change del control
+			document.getElementById('clrColor').addEventListener('change',function(){
+				//obtenemos el color seleccionado por el usuario
+				var strColorSeleccionado=this.value;
+				//seleccionamos la capa que vamos a cambiar de color
+				var objCapa=document.getElementById('divColor');
+				
+				//le colocamos el nuevo color de fondo a la capa
+				objCapa.style.backgroundColor=strColorSeleccionado;
+				//mostramos el codigo del color seleccionado
+				objCapa.innerHTML=strColorSeleccionado;
+			});
+		</script>
+	</body>
+</html>
