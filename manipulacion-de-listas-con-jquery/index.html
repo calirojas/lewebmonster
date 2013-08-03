@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ejemplo de manipulaci&oacute;n de listas HTML con jQuery - www.lewebmonster.com</title>
+		<link rel="stylesheet" type="text/css" href="css/listas.css">
+	</head>
+	<body>
+		<div id="divContenedor">
+			<div id="divInfo">
+				<h1>Manipulaci&oacute;n de listas HTML con jQuery</h1>
+				<p>Ejemplo por Cali Rojas - <a href="http://www.lewebmonster.com">http://www.lewebmonster.com</a></p>
+			</div>
+			<div id="divEjemplo">
+				<div id="divControles">
+					<label for="txtNombre">Nombre: </label>
+					<input type="text" id="txtNombre" size="40">
+					<input type="button" value="Agregar" id="btnAgregar">
+					<div class="clsSalto"></div>
+					<input type="checkbox" id="chkAgregarAlInicio"> <label for="chkAgregarAlInicio">Agregar el elemento al inicio de la lista</label>
+					<div class="clsSalto"></div>
+				</div>
+				<div id="divLista"></div>
+				<div class="clsSalto"></div>
+				<label for="selLimite">Limitar la cantidad de elementos a </label>
+				<select id="selLimite">
+					<option value="0">sin l&iacute;mite</option>
+					<option value="5">5</option>
+					<option value="10">10</option>
+					<option value="15">15</option>
+					<option value="20">20</option>
+				</select>
+				<div class="clsSalto"></div>
+				<div class="clsDerecha">
+					<input type="button" value="Eliminar pares" id="btnEliminarPares">
+					<input type="button" value="Eliminar impares" id="btnEliminarImpares">
+					<input type="button" value="Eliminar toda la lista" id="btnEliminarTodo">
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/ext/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="js/listas.js"></script>
+	</body>
+</html>

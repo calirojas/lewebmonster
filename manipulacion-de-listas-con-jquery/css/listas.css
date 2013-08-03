@@ -1,0 +1,87 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: #f1f1f1;
+	font: normal 13px Tahoma, Verdana, Arial, sans-serif;
+}
+input[type="text"],input[type="button"],select{
+	padding: 7px;
+	border-radius: 2px;
+	border: solid 1px #ccc;
+	background: #fff;
+	color: #000;
+}
+	input[type="text"]:focus,input[type="text"]:active,input[type="text"]:hover,
+	input[type="button"]:focus,input[type="button"]:active,input[type="button"]:hover,
+	select:focus,select:active,select:hover{
+		border-color: #777;
+	}
+h1{
+	text-shadow: 1px 1px 1px #ccc;
+	font-size: 22px;
+}
+
+#divContenedor{
+	position: absolute;
+	width: 450px;
+	left: 50%;
+	margin-left: -225px;
+	top: 50px;
+}
+	#divInfo{
+		padding: 10px;
+		text-align: center;
+	}
+	#divEjemplo{
+		padding: 10px;
+		border: solid 1px #ccc;
+		border-radius: 3px;
+		box-shadow: 0 0 10px #ccc;
+		background: #fff;
+	}
+		#divEjemplo select{
+			width: 225px;
+		}
+		#divControles{
+			
+		}
+		#divLista{
+			max-height: 330px;
+			overflow: auto;
+		}
+
+			#divLista ul{
+				list-style-type: none;
+			}
+				#divLista ul li{
+					padding: 7px;
+					border-radius: 3px;
+				}
+					#divLista ul li:nth-child(odd){
+						background: #f1f1f1;
+					}
+					#divLista ul li:nth-child(even){
+						background: #fff;
+					}
+					#divLista ul li a.clsEliminarElemento{
+						padding: 5px;
+						border: solid 1px #ccc;
+						background: #fff url(../img/eliminar.png) center no-repeat;
+						border-radius: 3px;
+						width: 16px;
+						display: inline-block;
+						margin-right: 10px;
+						cursor: pointer;
+					}
+						#divLista ul li a.clsEliminarElemento:hover{
+							border-color: #f00;
+						}
+.clsSalto{
+	clear: both;
+	padding: 3px;
+}
+.clsDerecha{
+	text-align: right;
+}
