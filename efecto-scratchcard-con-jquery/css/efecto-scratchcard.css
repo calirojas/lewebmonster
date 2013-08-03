@@ -1,0 +1,47 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font: 12px normal Tahoma, Verdana, Arial, sans-serif;
+	background: #333;
+	color: #fff;
+}
+h1{
+	text-align: center;
+	padding-top: 15px;
+	font-size: 15px;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px #000;
+}
+h2,h3{
+	text-align: center;
+	font-size: 12px;
+	font-weight: normal;
+	text-shadow: 1px 1px 1px #000;
+}
+h3{
+	padding-bottom: 15px;
+}
+a{
+	color: #f00;
+}
+#divContenedorCuadros{
+	background: url(../img/leon.jpg);
+	height: 500px;
+	width: 600px;
+	border-radius: 3px;
+	border: solid 2px #000;
+	box-shadow: 0 0 10px #000;
+	cursor: pointer;
+	margin: 0 auto;
+}
+	#divContenedorCuadros ul{
+		list-style-type: none;
+	}
+		#divContenedorCuadros ul li{
+			height: 50px;
+			width: 50px;
+			float: left;
+			background: #000;
+		}
