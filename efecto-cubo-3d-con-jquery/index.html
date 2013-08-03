@@ -1,0 +1,158 @@
+<html>
+	<head>
+		<title>Cubo 3D al estilo Linux utilizando jQuery - www.lewebmonster.com</title>
+		<link type="text/css" rel="stylesheet" href="css/gnome.css">
+	</head>
+	<body>
+		<div id="divGNOME">
+			<div id="divCubo">
+				<img src="img/escritorio/fondo.jpg">
+				<img src="img/escritorio/fondo2.jpg">
+				<img src="img/escritorio/fondo3.jpg">
+				<img src="img/escritorio/fondo4.jpg">
+			</div>
+			<div id="divContenedor">
+				<div id="divBarraSuperior">
+					<div id="divMenu">
+						<ul>
+							<li>
+								<a href="javascript:void(0);">Aplicaciones</a>
+								<ul>
+									<li><a href="javascript:void(0);">Accesorios</a></li>
+									<li><a href="javascript:void(0);">Juegos</a></li>
+									<li><a href="javascript:void(0);">Gr&aacute;ficos</a></li>
+									<li><a href="javascript:void(0);">Internet</a></li>
+									<li><a href="javascript:void(0);">Desarrollo</a></li>
+									<li><a href="javascript:void(0);">Otros</a></li>
+									<li><a href="javascript:void(0);">Wine</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="javascript:void(0);">Lugares</a>
+								<ul>
+									<li><a href="javascript:void(0);">Escritorio</a></li>
+									<li><a href="javascript:void(0);">Documentos</a></li>
+									<li><a href="javascript:void(0);">M&uacute;sica</a></li>
+									<li><a href="javascript:void(0);">Im&aacute;genes</a></li>
+									<li><a href="javascript:void(0);">V&iacute;deos</a></li>
+									<li><a href="javascript:void(0);">Descargas</a></li>
+									<li class="clsSeparador"></li>
+									<li><a href="javascript:void(0);">Equipo</a></li>
+									<li><a href="javascript:void(0);">Unidad USB</a></li>
+									<li class="clsSeparador"></li>
+									<li><a href="javascript:void(0);">Red</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="javascript:void(0);">Sistema</a>
+								<ul>
+									<li><a href="javascript:void(0);">Preferencias</a></li>
+									<li><a href="javascript:void(0);">Administraci&oacute;n</a></li>
+									<li class="clsSeparador"></li>
+									<li><a href="javascript:void(0);">Ayuda</a></li>
+									<li><a href="javascript:void(0);">Acerca de GNOME</a></li>
+									<li class="clsSeparador"></li>
+									<li><a href="javascript:void(0);">Bloquear la pantalla</a></li>
+									<li><a href="javascript:void(0);">Cerrar sesi&oacute;n calirojas...</a></li>
+									<li><a href="javascript:void(0);">Apagar...</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<div id="divAccesos">
+						<ul>
+							<li><a href="javascript:void(0);"><img src="img/accesos/terminal.png"></a></li>
+							<li><a href="javascript:void(0);"><img src="img/accesos/accesibilidad.png"></a></li>
+							<li><a href="javascript:void(0);"><img src="img/accesos/calculadora.png"></a></li>
+							<li><a href="javascript:void(0);"><img src="img/accesos/monitor.png"></a></li>
+						</ul>
+					</div>
+					<div id="divNotificacion">
+						<ul>
+							<li><a href="javascript:void(0);"><img src="img/notificacion/volumen.png"></a></li>
+							<li><a href="javascript:void(0);"><img src="img/notificacion/red.png"></a></li>
+							<li><a href="javascript:void(0);"><img src="img/notificacion/bateria.png"></a></li>
+						</ul>
+					</div>
+					<div class="clsSalto"></div>
+				</div>
+				<div id="divEscritorio">
+					<ul>
+						<li><a href="javascript:void(0);"><img src="img/escritorio/iconos/usuario.png"><strong>calirojas</strong></a></li>
+						<li><a href="javascript:void(0);"><img src="img/escritorio/iconos/archivos.png"><strong>Archivos</strong></a></li>
+						<li><a href="javascript:void(0);"><img src="img/escritorio/iconos/ayuda.png"><strong>Ayuda</strong></a></li>
+						<li><a href="javascript:void(0);"><img src="img/escritorio/iconos/navegador.png"><strong>Navegador</strong></a></li>
+						<li><a href="javascript:void(0);"><img src="img/escritorio/iconos/red.png"><strong>Red</strong></a></li>
+						<li><a href="javascript:void(0);"><img src="img/escritorio/iconos/papelera.png"><strong>Papelera</strong></a></li>
+					</ul>
+				</div>
+				<div id="divVentana">
+					<div id="divVentanaSuperior">
+						<div id="divVentanaTitulo">Bienvenid@ a Debian</div>
+						<div id="divVentanaCerrar" title="Cerrar"></div>
+						<div class="clsSalto"></div>
+					</div>
+					<div id="divVentanaContenido">
+						<p>
+							<strong>Hola</strong>, este es un intento de "crear" el escritorio GNOME con JQuery y CSS. Todos los efectos
+							que usted observa son b&aacute;sicos; nada del otro mundo.
+							<br><br>
+							Con este demo se demuestra la falicidad con que se pueden producir cosas interesantes haciendo uso de la
+							librer&iacute;a JQuery. Los &uacute;nicos elementos que tienen funcionalidad son los ubicados en la barra
+							inferior (en forma de ventanas minimizadas y el panel para cambiar de escritorio).
+							<br><br>
+							<strong>El famoso cubo de Linux</strong><br>
+							En este demo tambi&eacute;n se muestra el famoso cubo de Linux. Para ver el efecto se debe hacer clic en el
+							desktop switcher, ubicado en la esquina inferior derecha (s&iacute;, esos 4 cuadritos) :P
+							<br><br>
+							Las ventanas en la parte inferior son enlaces (links) a esos sitios, al hacer clic se abrir&aacute;n en una
+							capa (dentro del escritorio). En realidad, con este ejemplo hay bastante para aprender, principalmente son
+							cosas b&aacute;sicas que al combinarse con otras generan resultados agradables.
+							<br><br>
+							Ha sido probado en Opera, Firefox y Chromium; en Internet Explorer ni se les ocurra (probado en IE7 corriendo
+							en Debian... los resultados no fueron para nada buenos).
+							<br><br>
+							Que lo disfruten!<br><strong>Cali Rojas</strong>
+						</p>
+					</div>
+					<div id="divVentanaInferior">Barra de estado</div>
+				</div>
+				<div id="divBarraInferior">
+					<div id="divIconoEscritorio">
+						<a href="javascript:void(0);">
+							<img src="img/accesos/escritorio.png">
+						</a>
+					</div>
+					<div id="divVentanas">
+						<ul>
+							<li><a href="http://www.lewebmonster.com" title="lewebmonster.com">lewebmonster.com</a></li>
+							<li><a href="http://www.lewebmonster.com/curriculum" title="Curr&iacute;culum de Cali Rojas">Curr&iacute;culum de Cali Rojas</a></li>
+							<li><a href="http://www.debian.org" title="Debian -- El sistema operativo universal">Debian -- El sistema op..</a></li>
+						</ul>
+					</div>
+					<div id="divEscritorios">
+						<ul>
+							<li><a href="1" class="clsActivo">&nbsp;</a></li>
+							<li><a href="2">&nbsp;</a></li>
+							<li><a href="3">&nbsp;</a></li>
+							<li><a href="4">&nbsp;</a></li>
+						</ul>
+					</div>
+					<div class="clsSalto"></div>
+				</div>
+			</div>
+		</div>
+		<div id="divCali">
+			<p>
+				Ejemplo por Cali Rojas - <a href="http://www.lewebmonster.com" title="lewebmonster.com">www.lewebmonster.com</a>
+			</p>
+		</div>
+		<script type="text/javascript" src="js/ext/jquery.min.js"></script>
+		<script type="text/javascript" src="js/ext/jquery.imagecube.package-1.2.2/jquery.imagecube.pack.js"></script>
+		<script type="text/javascript" src="js/gnome.js"></script>
+	</body>
+</html>
+<!--
+		calirojas.com
+		febrero 11, 2012
+-->

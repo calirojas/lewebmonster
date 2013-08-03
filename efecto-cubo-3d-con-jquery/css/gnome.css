@@ -1,0 +1,304 @@
+body{
+	font: normal 13px Tahoma, Verdana, Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+	background: #333;
+}
+h1{
+	text-align: center;
+	padding-top: 20px;
+}
+iframe{
+	border: 0;
+	width: 100%;
+	height: 100%;
+}
+a{
+	outline: 0;
+}
+img{
+	border: none;
+}
+#divGNOME{
+	position: relative;
+	margin: auto;
+	border: solid 1px #ccc;
+	left: 50%;
+	margin-left: -405px;
+	width: 810px;
+	top: 29px;
+	background: #000;
+	z-index: 500;
+	display: none;
+}
+#divCubo{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 810px;
+	height: 621px;
+	display: block; 
+}
+	#divContenedor{
+		position: absolute;
+		width: 810px;
+		border: solid 0px #000;
+		margin: auto;
+		top: 0;
+	}
+		#divBarraSuperior{
+			position: relative;
+			background: #fff;
+			padding: 1px 0;
+			z-index: 1010;
+			box-shadow: 0px 10px 10px -10px #555;
+		}
+			#divMenu{
+				margin-right: 20px;
+				float: left;
+				display: inline-block;
+			}
+				#divMenu ul{
+					padding: 0;
+					margin: 0;
+					list-style-type: none;
+					display: inline-block;
+					background: #fff;
+				}
+					#divMenu ul li{
+						float: left;
+					}
+						#divMenu ul li a{
+							padding: 5px;
+							text-decoration: none;
+							display: block;
+							color: #000;
+						}
+						/*#divMenu ul li:hover ul{
+							display: block;
+						}*/
+					#divMenu ul li ul{
+						display: block;
+						position: absolute;
+						padding: 0;
+						margin: 0;
+						display: none;
+						z-index: 100;
+						box-shadow: 1px 1px 10px #555;
+					}
+						#divMenu ul li ul li{
+							float: none;
+							padding: 2px;
+							min-width: 120px;
+						}
+							#divMenu ul li ul li a:hover{
+								background: #000;
+								color: #fff;
+								border-radius: 5px;
+							}
+			#divAccesos{
+				float: left;
+			}
+				#divAccesos ul{
+					padding: 0;
+					margin: 0;
+					list-style-type: none;
+					display: inline-block;
+				}
+					#divAccesos ul li{
+						float: left;
+					}
+						#divAccesos ul li a{
+							padding: 5px;
+							display: block;
+							margin-right: 3px;
+							color: #000;
+							text-decoration: none;
+						}
+			#divNotificacion{
+				float: right;
+			}
+				#divNotificacion ul{
+					padding: 0;
+					margin: 0;
+					list-style-type: none;
+					display: inline-block;
+				}
+					#divNotificacion ul li{
+						float: left;
+					}
+						#divNotificacion ul li a{
+							padding: 5px;
+							display: block;
+							margin-right: 3px;
+							color: #000;
+							text-decoration: none;
+						}
+		#divEscritorio{
+			position: relative;
+			height: 562px;
+		}
+			#divEscritorio ul{
+				padding: 0;
+				margin: 0;
+				list-style-type: none;
+			}
+				#divEscritorio ul li{
+					width: 100px;
+					text-align: center;
+					height: 70px;
+				}
+					#divEscritorio ul li a{
+						display: block;
+						padding: 10px;
+						text-decoration: none;
+						text-align: center;
+						color: #fff;
+						text-shadow: 1px 1px 1px #000;
+					}
+						#divEscritorio ul li a:hover strong{
+							background: #000;
+							border-radius: 5px;
+						}
+						#divEscritorio ul li a img{
+							height: 32px;
+							width: 32px;
+						}
+						#divEscritorio ul li a strong{
+							display: block;
+							font-weight: normal;
+							padding: 5px 0;
+						}
+		#divBarraInferior{
+			position: relative;
+			width: 100%;
+			background: #fff;
+			padding: 2px 0;
+		}
+			#divIconoEscritorio{
+				display: inline-block;
+				float: left;
+				height: 20px;
+			}
+			#divVentanas{
+				float: left;
+				max-width: 650px;
+				padding-left: 2px;
+			}
+				#divVentanas ul{
+					padding: 0;
+					margin: 0;
+					list-style-type: none;
+				}
+					#divVentanas ul li{
+						float: left;
+					}
+						#divVentanas ul li a{
+							padding: 5px;
+							display: block;
+							border: solid 1px #ccc;
+							border-radius: 3px;
+							margin-right: 3px;
+							color: #000;
+							text-decoration: none;
+						}
+							#divVentanas ul li a:hover{
+								background: #f1f1f1;
+							}
+			#divEscritorios{
+				float: right;
+			}
+				#divEscritorios ul{
+					padding: 0;
+					margin: 0;
+					list-style-type: none;
+				}
+					#divEscritorios ul li{
+						float: left;
+					}
+						#divEscritorios ul li a{
+							padding: 6px;
+							display: block;
+							color: #000;
+							text-decoration: none;
+							width: 20px;
+							background: #999;
+							border-right: solid 1px #ccc;
+						}
+						#divEscritorios ul li a.clsActivo{
+							background: #bfd5f3;
+						}
+	#divVentana{
+		position: absolute;
+		width: 600px;
+		height: 400px;
+		background: #fff;
+		bottom: 120px;
+		left: 105px;
+		border-radius: 5px;
+		box-shadow: 0 0 15px 1px #000;
+		border: solid 1px #000;
+		overflow: hidden;
+	}
+		#divVentanaSuperior{
+			padding: 5px;
+			background: #000;
+			border-top-left-radius: 3px;
+			border-top-right-radius: 3px;
+		}
+			#divVentanaTitulo{
+				float: left;
+				font-weight: bold;
+				color: #fff;
+			}
+			#divVentanaCerrar{
+				float: right;
+				width: 16px;
+				height: 16px;
+				background: url(../img/escritorio/cerrar.png) center no-repeat;
+				text-align: center;
+				cursor: pointer;
+			}
+				#divVentanaCerrar:hover{
+					background-image: url(../img/escritorio/cerrar-hover.png);
+				}
+		#divVentanaContenido{
+			height: 351px;
+			overflow: hidden;
+		}
+			#divVentanaContenido p{
+				padding: 10px;
+				text-align: justify;
+			}
+		#divVentanaInferior{
+			position: absolute;
+			bottom: 1px;
+			background: #f1f1f1;
+			display: block;
+			width: 100%;
+			text-indent: 5px;
+			padding: 4px 0;
+			font-size: 11px;
+			border-bottom-left-radius: 3px;
+			border-bottom-right-radius: 3px;
+			border-top: solid 1px #ccc;
+		}
+#divCali{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	text-align: right;
+}
+	#divCali p{
+		padding: 20px;
+		color: #fff;
+	}
+		#divCali p a{
+			color: #fff;
+		}
+.clsSalto{
+	clear: both;
+}
+li.clsSeparador{
+	border-top: solid 1px #ccc;
+}
