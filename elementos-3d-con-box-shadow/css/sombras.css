@@ -1,0 +1,31 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font: normal 13px Tahoma, Verdana, Arial, sans-serif;
+	background: green url(http://texaspokerrules.files.wordpress.com/2010/09/wpid-51bmfubvhllsl500.jpg?w=630);
+}
+h1{font-size: 14px;}
+a{color: #ff9900;}
+
+#divContenedor{
+	margin: 0 auto;
+	margin-top: 80px;
+	width: 310px;
+}
+	#divInfo{
+		padding-bottom: 25px;
+		text-align: center;
+		color: #fff;
+	}
+	#divCarta{
+		border: solid 0px #f00;
+		background: #fff url(../img/carta.jpg) center no-repeat;
+		padding-bottom: 10px;
+		width: 274px;
+		height: 383px;
+		box-shadow:  5px 5px 1px #999, 10px 10px 2px #888, 15px 15px 3px #777,
+			20px 20px 4px #666, 25px 25px 20px #111;
+		border-radius: 3px;
+	}
