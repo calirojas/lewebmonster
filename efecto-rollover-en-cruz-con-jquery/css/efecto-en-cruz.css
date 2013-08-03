@@ -1,0 +1,64 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font: 12px normal Tahoma, Verdana, Arial, sans-serif;
+	background: #333;
+	color: #fff;
+}
+h1{
+	font-size: 18px;
+	text-align: center;
+}
+h2{
+	text-align: center;
+	font-size: 13px;
+	font-weight: normal;
+}
+a{
+	color: #fff;
+}
+/*estilos del contenedor principal*/
+.clsImagen{
+	border: solid 1px #000;
+	background: #fff;
+	height: 500px;
+	width: 500px;
+	position: relative;
+	box-shadow: 0 0 10px #000;
+	border-radius: 3px;
+	margin: 0 auto;
+	color: #000;
+}
+	/*esta clase representa cada uno de los recuadros en los que se partira la imagen*/
+	.clsCuadro{
+		position: absolute;
+		background: url(../img/jquery.jpg) no-repeat; /*fondo sobre el que vamos a hacer el efecto*/
+	}
+	.clsDescripcion{
+		position: absolute;
+		padding: 19px;
+	}
+		.clsDescripcion h3{
+			text-align: center;
+			padding-bottom: 10px;
+			font-size: 20px;
+		}
+		.clsDescripcion p{
+			text-align: justify;
+			font-size: 11px;
+			padding: 15px;
+		}
+	/*estas clases son unicamente para establecer la posicion del fondo
+	 *ojo: se utilizan unicamente en el codigo JavaScript*/
+	.clsArribaIzquierda{top: 0; left: 0; background-position: top left;}
+	.clsArribaDerecha{top: 0; right: 0;background-position: top right;}
+	.clsAbajoIzquierda{bottom: 0; left: 0;background-position: bottom left;}
+	.clsAbajoDerecha{bottom: 0; right: 0;background-position: bottom right;}
+
+/*esta clase no tiene importancia, es para separar bloques que no tienen nada que ver con el efecto*/
+.clsEspacio{
+	padding: 10px;
+	clear: both;
+}
