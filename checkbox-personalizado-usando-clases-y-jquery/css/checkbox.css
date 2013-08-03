@@ -1,0 +1,72 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font: normal 13px Tahoma, Verdana, Arial, sans-serif;
+}
+input[type="button"]{
+	border: solid 1px #ccc;
+	padding: 5px;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: 12px;
+}
+	input[type="button"]:hover{
+		background: #f1f1f1;
+		border-color: #777;
+	}
+
+#divContenedor{
+	background: #fff;
+	width: 550px;
+	position: absolute;
+	left: 50%;
+	margin-left: -275px;
+	top: 20px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px #ccc;
+	border: solid 1px #ccc;
+}
+	#divTitulo{
+		padding: 10px;
+		text-align: center;
+	}
+		#divTitulo h1{
+			font-size: 20px;
+		}
+	#divControles{
+		text-align: center;
+		padding: 10px 0;
+	}
+	#divLista{
+		padding: 10px;
+	}
+		#divLista ul{
+			list-style-type: none;
+		}
+			#divLista ul li{
+				border: solid 1px #ccc;
+				border-radius: 3px;
+				margin: 5px;
+				cursor: pointer;
+			}
+				#divLista ul li:hover{
+					background: #f1f1f1;
+				}
+				#divLista ul li.clsMarcado{
+					border-style: inset;
+					background: #f1f1f1;
+				}
+					#divLista ul li.clsMarcado p{
+						color: #000;
+						font-weight: bold;
+					}
+					#divLista ul li p{
+						color: #666;
+					}
+						#divLista ul li p img{
+							height: 64px;
+							width: 64px;
+							margin-right: 10px;
+						}
