@@ -1,0 +1,34 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	color: #fff;
+	font: normal 12px Tahoma, Verdana, Arial, sans-serif;
+	/* aca aplicamos varios fondos al body */ 
+	background: url(../img/jason.png) 50% 110px no-repeat,
+	url(../img/sangre.png) center 350px repeat-x,
+	#000 url(../img/fondo-negro.jpg) top center no-repeat;
+}
+a{
+	color: #f00;
+}
+h1{
+	font-family: 'Nosifer', cursive;
+	font-size: 40px;
+	text-shadow: 5px 15px 10px #f00;
+	color: #fafafa;
+}
+#divTitulo{
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+#divInfo{
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+	background: #000;
+	width: 100%;
+	padding: 10px 0;
+}
