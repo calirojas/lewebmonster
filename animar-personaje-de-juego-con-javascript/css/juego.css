@@ -1,0 +1,48 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font: normal 13px Tahoma, Verdana, Arial, sans-serif;
+	background: #f1f1f1;
+}
+
+#divContenedor{
+	height: 350px;
+	width: 550px;
+	position: relative;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+	#divInfo{
+		padding: 5px;
+		text-align: center;
+	}
+		#divInfo h1{
+			font-size: 18px;
+		}
+		#divInfo p{
+			
+		}
+	#divJuego{
+		position: absolute;
+		height: 280px;
+		width: 550px;
+		background: url(../img/fondo.png);
+		bottom: 0;
+		overflow: hidden;
+		box-shadow: 0 0 10px #333;
+	}
+		#divPersonaje{
+			position: absolute;
+			left: 300px;
+			bottom: 22px;
+			height: 55px;
+			width: 42px;
+		}
+		.clsPosicionDerecha{
+			background: url(../img/mario-derecha.png) center top no-repeat;
+		}
+		.clsPosicionIzquierda{
+			background: url(../img/mario-izquierda.png) center top no-repeat;
+		}
