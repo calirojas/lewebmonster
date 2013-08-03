@@ -1,0 +1,121 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font: normal 12px Tahoma, Verdana, Arial, sans-serif;
+	background: url(../img/fondo.jpg);
+	color: #fff;
+}
+a{
+	color: #f00;
+}
+h1{
+	font-family: 'Bubblegum Sans', cursive;
+	font-size: 30px;
+	text-shadow: 1px 1px 10px #000;
+}
+
+/* estilos de los elementos del formulario */
+form{
+	
+}
+	fieldset{
+		padding: 10px 0;
+		text-align: center;
+		border: solid 1px #222;
+		border-radius: 3px;
+		box-shadow: 0 0 10px #000;
+		background: #000;
+		padding-bottom: 15px;
+	}
+		legend{
+			text-align: left;
+			color: #fff;
+			padding: 7px;
+			border-radius: 3px;
+			margin-left: 10px;
+			background: #300000;
+			border: solid 1px #000;
+		}
+		input[type="submit"]{
+			padding: 5px;
+		}
+		input[type="text"]{
+			padding: 5px;
+			width: 150px;
+		}
+		label{
+			
+		}
+/* estilos de la tabla */
+table{
+	border-radius: 3px;
+	border: solid 1px #222;
+	box-shadow: 0 0 10px #000;
+}
+	table thead tr th,
+	table tfoot tr td{
+		padding: 15px 0;
+		background: #000;			
+		color: #fff;
+		font-weight: bold;
+		font-size: 11px;
+		text-align: center;
+		min-width: 10px;
+		border: none;
+	}
+	table tfoot tr td{
+		font-weight: normal;
+	}
+		table tbody tr td{
+			transition: all 400ms ease-in;
+				-webkit-transition: all 400ms ease-in;
+				-moz-transition: all 400ms ease-in;
+				-o-transition: all 400ms ease-in;
+				-ms-transition: all 400ms ease-in;
+			padding: 10px 5px;
+			word-wrap: break-word;
+			border: none;
+			border-bottom: solid 1px #222;
+			border-top: solid 1px #222;
+			border-right: solid 1px #222;
+		}
+			table tbody tr:nth-child(odd){
+				background: #333;
+			}
+			table tbody tr:nth-child(even){
+				background: #666;
+			}
+				table tbody tr:hover td:nth-child(odd),
+				table tbody tr:hover td:nth-child(even){
+					background: #300000;
+					color: #fff;
+				}
+
+/* estilos de las capas */
+#divContenedor{
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 600px;
+}
+	#divInfo{
+		padding: 10px;
+		text-align: center;
+	}
+	#divAgregar{
+		padding: 10px;
+	}
+	#divLista{
+		padding: 10px;
+	}
+
+/* clases */
+.clsPadding{
+	padding: 5px;
+}
+.clsEliminarContacto{
+	padding: 2px;
+	font-size: 11px;
+}

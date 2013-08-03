@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Agenda de contactos con localStorage de HTML5 - www.lewebmonster.com</title>
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Bubblegum+Sans">
+		<link rel="stylesheet" type="text/css" href="css/agenda.css">
+	</head>
+	<body>
+		<div id="divContenedor">
+			<div id="divInfo">
+				<h1>Agenda de contactos usando localStorage</h1>
+			</div>
+			<div id="divAgregar">
+				<form id="frmAgregarContacto">
+					<fieldset>
+						<legend>Agregar nuevo contacto</legend>
+						<label for="txtNombre">Nombre:</label>
+						<input type="text" id="txtNombre" required autofocus>
+						<label for="txtTelefono">Tel&eacute;fono:</label>
+						<input type="text" id="txtTelefono" required>
+						<input type="submit" value="Agregar">
+					</fieldset>
+				</form>
+			</div>
+			<div id="divLista">
+				<table width="100%" cellpadding="0" cellspacing="0" border="1" id="tblTablaContactos">
+					<thead>
+						<tr>
+							<th>Nombre</th>
+							<th>Tel&eacute;fono</th>
+							<th>&nbsp;</th>
+						</tr>
+					</thead>
+					<tbody>
+						<!-- el cuerpo de la tabla sera llenado con JavaScript -->
+					</tbody>
+					<tfoot>
+						<tr>
+							<td colspan="3">
+								Ejemplo por Cali Rojas - <a href="http://www.lewebmonster.com/">www.lewebmonster.com</a>
+							</td>
+						</tr>
+					</tfoot>
+				</table>
+			</div>
+		</div>
+		<script src="js/ext/jquery-1.8.3.min.js"></script>
+		<script src="js/agenda.js"></script>
+	</body>
+</html>
