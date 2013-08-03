@@ -1,0 +1,51 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: url(../img/fondo.jpg);
+	color: #fff;
+	font: normal 12px Tahoma, Verdana, Arial, sans-serif;
+}
+a{
+	color: #f00;
+}
+h1{
+	font: normal 25px 'Margarine';
+}	
+input[type="button"]{
+	padding: 10px;
+	border: solid 1px #222;
+	background: #333;
+	border-radius: 3px;
+	color: #ccc;
+	cursor: pointer;
+}
+	input[type="button"]:hover,
+	input[type="button"]:active,
+	input[type="button"]:focus{
+		background: #000;
+	}
+
+#divContenedor{
+	margin: 0 auto;
+	margin-top: 100px;
+	border: solid 1px #222;
+	background: #000;
+	width: 600px;
+	border-radius: 7px;
+	box-shadow: 0 0 10px #000;
+}
+	#divInfo{
+		padding: 10px;
+		text-align: center;
+	}
+	#divControles{
+		padding: 10px;
+		text-align: center;
+	}
+	#divNotas{
+		padding: 10px;
+		text-align: center;
+		font-size: 11px;
+	}
