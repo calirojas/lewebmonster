@@ -1,0 +1,91 @@
+body{
+	font: normal 13px Tahoma, Verdana, Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+h1{
+	text-align: center;
+	padding: 20px 0;
+}
+p{
+	text-align: justify;
+	padding: 5px;
+}
+
+#divContenedor{
+	position: absolute;
+	width: 700px;
+	left: 50%;
+	margin-left: -350px;
+	top: 40px;
+	z-index: 1;
+	background: #fff;
+}
+	#divCoordenadas{
+		border: solid 1px #ccc;
+		padding: 10px;
+		width: 200px;
+		text-align: center;
+		border-radius: 5px;
+		box-shadow: 1px 1px 10px #c0c0c0;
+		float: left;
+	}
+	#divScroll{
+		border: solid 1px #ccc;
+		border-radius: 5px;
+		height: 400px;
+		padding: 10px;
+		overflow-y: scroll;
+		margin: 20px 0;
+		box-shadow: 1px 1px 10px #c0c0c0;
+	}
+	#divEstado{
+		width: 200px;
+		padding: 10px;
+		border: solid 1px #ccc;
+		border-radius: 5px;
+		box-shadow: 1px 1px 10px #c0c0c0;
+		float: right;
+		text-align: center;
+	}
+
+#divMenu{
+	position: absolute;
+	width: 200px;
+	border: solid 1px #ccc;
+	border-radius: 5px;
+	box-shadow: 1px 1px 10px #c0c0c0;
+	display: none;
+	padding: 10px;
+	background: #fff;
+	z-index: 100;
+}
+	#divMenu ul{
+		padding: 0;
+		margin: 0;
+		list-style-type: none;
+	}
+		#divMenu ul li{
+			padding: 7px;
+			cursor: pointer;
+		}
+			#divMenu ul li:hover{
+				background: #ccc;
+				border-radius: 3px;
+			}
+#divCali{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	text-align: right;
+	background: #fff;
+}
+	#divCali img{
+		padding: 20px;
+		border: 0;
+	}
+
+.clsSalto{
+	clear: both;
+}
