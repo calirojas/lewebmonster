@@ -1,0 +1,49 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<title>Agregar y eliminar filas a una tabla con JQuery, manipulaci&oacute;n de tablas con JQuery - calirojas.com</title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<body>
+	<div id="divContenedor">
+		<h1>Manipulaci&oacute;n de tablas con JQuery</h1>
+		<div id="divContenedorTabla">
+			<table align="center" width="450">
+				<caption>T&iacute;tulo de la tabla</caption>
+				<thead>
+					<tr>
+						<th>Nombre</th>
+						<th>Tel&eacute;fono</th>
+						<th>Correo electr&oacute;nico</th>
+						<th width="22">&nbsp;</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><input type="text" class="clsAnchoTotal"></td>
+						<td><input type="text" class="clsAnchoTotal"></td>
+						<td><input type="text" class="clsAnchoTotal"></td>
+						<td align="right"><input type="button" value="-" class="clsEliminarFila"></td>
+					</tr>
+				</tbody>
+				<tfoot>
+					<tr>
+						<td colspan="4" align="right">
+							<input type="button" value="Agregar una fila" class="clsAgregarFila">
+							<input type="button" value="Clonar la tabla" class="clsClonarTabla">
+							<input type="button" value="Eliminar la tabla" class="clsEliminarTabla">
+						</td>
+					</tr>
+				</tfoot>
+			</table>
+		</div>
+	</div>
+	<div id="divCali">
+		<a href="http://calirojas.com">
+			<img src="img/calirojas.jpg">
+		</a>
+	</div>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/manipulacion.js"></script>
+</body>
+</html>

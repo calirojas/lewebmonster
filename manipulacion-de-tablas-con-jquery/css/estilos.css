@@ -1,0 +1,69 @@
+body{
+	background:#333;
+	color:#000;
+	font:13px normal Tahoma, Verdana, Arial, sans-serif;
+	padding:0; margin:0;
+}
+		
+h1{
+	text-align:center;
+	color:#fff;
+	font-weight:normal;
+}
+table{
+	background:#000;
+	border-radius:5px;
+	border-top-left-radius:0px;
+	border-top-right-radius:0px;
+	border:solid 1px #333;
+	color:#fff;
+	border-top:none;
+	padding:10px;
+}
+	table caption{
+		text-indent:15px;
+		background:#ff0000 url(../img/contraer.png) left center no-repeat;
+		text-align:left;
+		cursor:pointer;
+		padding:5px;
+		font-style:italic;
+		color:#fff;
+		border-radius:5px;
+		border:solid 1px #333;
+		border-bottom-left-radius:0px;
+		border-bottom-right-radius:0px;
+		border-bottom:none;
+	}
+#divContenedor{
+	position:absolute;
+	left:50%;
+	margin-left:-470px;
+	top:0px;
+	width:940px;
+	z-index:1000;
+}
+	#divContenedorTabla{
+		padding:4px;
+		float:left;
+	}
+#divCali{
+	position:fixed;
+	bottom:0;
+	width:100%;
+	text-align:right;
+	background:#000;
+	border-top:solid 2px #000;
+}
+	#divCali img{
+		padding:20px;
+		border:0;
+	}
+.clsAnchoTotal{
+	width:97%;
+}
+.clsExpandir{
+	background:#ff0000 url(../img/expandir.png) left center no-repeat;
+}
+.clsContraer{
+	background:#ff0000 url(../img/contraer.png) left center no-repeat;
+}
