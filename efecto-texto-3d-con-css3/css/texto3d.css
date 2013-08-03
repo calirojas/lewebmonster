@@ -1,0 +1,49 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font: normal 12px Tahoma, Verdana, Arial, sans-serif;
+	background: #675A4C;
+}
+#divContenedor{
+	text-align: center;
+	border: solid 0px #ccc;
+	margin-top: 150px;
+}
+	#divContenedor h1{
+		text-transform: uppercase;
+		color: #fff;
+		font-size: 150px;
+		
+	/* estandar */
+		text-shadow: 1px 1px 0 #333, 2px 2px 0 #333, 3px 3px 0 #333,
+		4px 4px 0 #333, 5px 5px 0 #333, 6px 6px 0 #333, 7px 7px 0 #333,
+		8px 8px 0 #333, 9px 9px 0 #333, 10px 10px 0 #333, 13px 13px 0 #222;
+		
+	/* prefijo para firefox */
+		-moz-text-shadow: 1px 1px 0 #333, 2px 2px 0 #333, 3px 3px 0 #333,
+		4px 4px 0 #333, 5px 5px 0 #333, 6px 6px 0 #333, 7px 7px 0 #333,
+		8px 8px 0 #333, 9px 9px 0 #333, 10px 10px 0 #333, 13px 13px 0 #222;
+		
+	/* prefijo para opera */
+		-o-text-shadow: 1px 1px 0 #333, 2px 2px 0 #333, 3px 3px 0 #333,
+		4px 4px 0 #333, 5px 5px 0 #333, 6px 6px 0 #333, 7px 7px 0 #333,
+		8px 8px 0 #333, 9px 9px 0 #333, 10px 10px 0 #333, 13px 13px 0 #222;
+		
+	/* prefijo para internet explorer */
+		-ms-text-shadow: 1px 1px 0 #333, 2px 2px 0 #333, 3px 3px 0 #333,
+		4px 4px 0 #333, 5px 5px 0 #333, 6px 6px 0 #333, 7px 7px 0 #333,
+		8px 8px 0 #333, 9px 9px 0 #333, 10px 10px 0 #333, 13px 13px 0 #222;
+		
+	/* prefijo para webkit (chrome, safari, etc) */
+		-webkit-text-shadow: 1px 1px 0 #333, 2px 2px 0 #333, 3px 3px 0 #333,
+		4px 4px 0 #333, 5px 5px 0 #333, 6px 6px 0 #333, 7px 7px 0 #333,
+		8px 8px 0 #333, 9px 9px 0 #333, 10px 10px 0 #333, 13px 13px 0 #222;
+	}
+	#divContenedor p{
+		color: #fff;
+	}
+		#divContenedor p a{
+			color: #FF850B;
+		}
